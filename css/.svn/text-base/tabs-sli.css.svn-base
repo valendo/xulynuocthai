@@ -1,0 +1,114 @@
+
+/* container for slides */
+.images {
+	position:relative;	
+	height:379px;
+	width:968px;
+	float:left;	
+	cursor:pointer;
+	
+
+}
+
+/* single slide */
+.images div {
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;width:968px;
+	padding:0 0 0 0;
+	height:379px;
+	font-size:12px;
+}
+
+.img-slider{ position:absolute;}
+.wrappet-slider-text{ background:url("wrapper_slider_text.png"/*tpa=http://osc4.template-help.com/wordpress_28831/wp-content/themes/theme1049/images/wrapper_slider_text.png*/) 0 0 no-repeat; width:287px; height:337px; top:0; left:681px; display:block; position:relative;}
+.wrappet-slider-text-indent{ padding:71px 0 0 41px; display:block}
+
+
+/* header */
+.wrappet-slider-text-indent h3{ color:#14b5ff; font-size:76px;}
+
+
+/* tabs (those little circles below slides) */
+.tabs {
+	/*margin:337px 0 0 657px;*/
+	left:666px; top:346px;
+	/**margin:344px 0 0 -304px;*/
+	background:url("slider_bg2.png"/*tpa=http://osc4.template-help.com/wordpress_28831/wp-content/themes/theme1049/images/slider_bg2.png*/);
+	width:311px;
+	height:42px;
+	position:absolute;
+	
+}
+
+/* single tab */
+.tabs a {
+	width:19px;
+	height:19px;
+	float:left;
+	margin:14px 6px 0 0;
+	background:url("navigato.gif"/*tpa=http://osc4.template-help.com/wordpress_28831/wp-content/themes/theme1049/images/navigato.gif*/) 0 0 no-repeat;
+	display:block;
+	font-size:1px;		
+}
+
+/* mouseover state */
+.tabs a:hover {
+	background-position:0 -19px;      
+}
+
+/* active state (current page state) */
+.tabs a.current {
+	background-position:0 -19px;     
+} 	
+
+
+/* prev and next buttons */
+.forward, .backward {
+	float:left;
+	margin-top:140px;
+	background:#fff url("hori_lar.png"/*tpa=http://osc4.template-help.com/wordpress_28831/wp-content/themes/theme1049/images/hori_lar.png*/) no-repeat;
+	display:block;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	font-size:1px;
+	text-indent:-9999em;	
+}
+
+/* next */
+.forward 				{ background-position: 0 -30px; clear:right; }
+.forward:hover 		{ background-position:-30px -30px; }
+.forward:active 	 	{ background-position:-60px -30px; } 
+
+
+/* prev */
+.backward:hover  		{ background-position:-30px 0; }
+.backward:active  	{ background-position:-60px 0; }
+
+/* disabled navigational button. is not needed when tabs are configured with rotate: true */
+.disabled {
+	visibility:hidden !important;		
+}
+.tabs-inner{ padding:0 0 0 24px; display:block;}
+.slider-indent-button{ position:absolute; margin:346px 0 0 868px; *margin:353px 0 0 -90px;}
+.slider-indent-button a{ color:#14b5ff; font-size:15px; margin-right:16px; line-height:29px;}
+.slider-indent-button button{ background:none; border:none; color:#14b5ff; font-size:15px; text-decoration:underline; line-height:21px;}
+.slider-indent-button button:hover{ text-decoration:none;}
+.slider-main-text{ font-size:15px; line-height:19px; color:#575d60; width:217px; margin:-24px 0 0 0;}
+.row-slider-button{ padding:1px 0 0 0;}
+.row-slider-button .slider-text1{ color:#45c1ff; font-size:17px; font-weight:bold; line-height:35px;}
+.row-slider-button .slider-text2{ color:#3a3a38; font-size:22px; margin-left:2px; font-weight:bold;}
+.button-slider-text{ 
+	background:url("button_slider_text.png"/*tpa=http://osc4.template-help.com/wordpress_28831/wp-content/themes/theme1049/images/button_slider_text.png*/) 0 0 no-repeat; 
+	display:block; float:right; 
+	width:96px; height:33px;
+	margin:0 38px 0 0;
+	*margin:0 18px 0 0;
+	text-align:center;
+	 color:#3a3a38; font-size:15px;
+	 text-decoration:none;
+	 line-height:30px;
+}
+.button-slider-text:hover{ text-decoration:underline; color:#3a3a38;}
