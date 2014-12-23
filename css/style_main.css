@@ -47,7 +47,7 @@ h1{ font-size:12px}
 #header .tophead {position:relative;}
 /*menu*/
 .menu-vavi {z-index:99999999; background:url(../images/bg-menu.jpg) repeat-x; height:38px; position:relative;}
-.menu-vavi li {float:left;	padding:0 35px; background:url(../images/line.jpg) right no-repeat; position:relative}
+.menu-vavi li {float:left;	padding:0 34px; background:url(../images/line.jpg) right no-repeat; position:relative}
 .menu-vavi li:last-child{ background:none}
 .menu-vavi li a {display:block;	line-height:38px;	display:block;	color:#FFF;	font-weight:bold;text-align:center; font-size:15px}
 .menu-vavi li a.home { background:url(../images/home.png) left no-repeat; padding-left:25px;}
